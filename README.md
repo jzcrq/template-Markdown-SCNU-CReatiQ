@@ -1,4 +1,4 @@
-# template-Markdown-SCNU-magic::team.getname()
+# template-Markdown-SCNU-CReatiQ
 
 * Build Code Library with Markdown and Pandoc, base on [ECNU F0RE1GNERS template](https://github.com/F0RE1GNERS/template).
 * [PDF 下载](https://github.com/jzcrq/template-Markdown-SCNU-CReatiQ/raw/gh-pages/template.pdf)
