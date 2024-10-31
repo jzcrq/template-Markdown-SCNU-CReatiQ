@@ -27,7 +27,7 @@ struct StrHash
 		h.resize(n+1);
 		p.resize(n+1);
 		p[0]=1;
-		for (int i=0;i<n;i++) h[i+1]=(10ll*h[i]+s[i]-'a')%P;
+		for (int i=0;i<n;i++) h[i+1]=(10ll*h[i]+s[i]-'a'+1)%P;
 		for (int i=0;i<n;i++) p[i+1]=10ll*p[i]%P;
 	}
 
