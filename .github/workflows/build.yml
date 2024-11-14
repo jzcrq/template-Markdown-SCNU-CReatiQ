@@ -25,6 +25,7 @@ jobs:
 
       - name: Install Pandoc
         run: |
+          sudo apt-get update
           mkdir -p /tmp/pandoc
           cd /tmp/pandoc
           python -m pip --no-cache-dir install setuptools wheel
